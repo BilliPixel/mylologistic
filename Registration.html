@@ -85,7 +85,7 @@
                     <input type="text" id="lname" name="lastname" placeholder="Your Name..">
                     <br>
                     <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" placeholder="Your Email..">
+                    <input type="text" id="email" name="email" placeholder="Your Email..">
                     <br>
                     <label for="contact">Phone no</label>
                     <input type="text" id="cname" name="contact" placeholder="Your contact..">
@@ -95,11 +95,11 @@
                     <br>
                     <label for="ssn">SSN</label>
                     <input type="text" id="ssn" name="ssn" placeholder="Your social secur..">
-                    <!-- <form action="/action_page.php"> -->
-                         <!-- <action="https://formsubmit.co/mylologistics@gmail.com" method="POST"></form> -->
-                         <br><label for="id picture">ID PICTURE(Front)</label><input type="file" id="myFile" name="filename">
-                         <br><label for="id picture">ID PICTURE(Back)</label><input type="file" id="myFile" name="filename">
                          <br>
+                         <label for="pictures" class="picture">Front ID picture</label>
+                         <input type="hidden" role="uploadcare-uploader" name="my_file" />
+                     
+
                          <button type="submit">SUBMIT</button>
                          </a>
                        <!-- </form> -->
@@ -152,6 +152,12 @@
      <script src="js/owl.carousel.min.js"></script>
      <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
+     <script>UPLOADCARE_PUBLIC_KEY = "demopublickey";</script>
+<script 
+src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js" 
+charset="utf-8"></script>
+
+     
 
 </body>
 </html>
