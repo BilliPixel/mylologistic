@@ -741,6 +741,69 @@ https://templatemo.com/tm-516-known
     color: #ffffff;
   }
   
+/* background-section for status */
+.section-background{
+  flex-direction: column;
+  
+}
+ 
+  /*   button */
+
+  button[type="submit"]{
+    width:100%;
+    border:none;
+    outline: none;
+    padding:20px;
+    font-size:24px;
+    border-radius: 8px;
+    font-family: 'montserrat';
+    color: #9fca29;
+    text-align:center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition:.3s ease background-color;
+  }
+
+  button[type="submit"]:hover{
+    background-color: rgb(224, 247, 197);
+  }
+
+  #status{
+    width:90%;
+    max-width: 500px;
+    text-align: center;
+    padding:10px;
+    margin:0 auto;
+    border-radius: 8px;
+  }
+
+  #status.success{
+    background-color: rgb(211,250, 153);
+    margin-top: 10px;
+    animation: status 4s ease forwards;
+  }
+
+  #status.error{
+    background-color: rgb(250, 129, 92);
+    margin-top: 10px;
+    color: white;
+    animation: status 4s ease forwards;
+  }
+
+  @keyframes status {
+    0%{
+      opacity:1;
+      pointer-events: all;
+    }
+    90%{
+      opacity: 1;
+      pointer-events: all;
+    }
+    100%{
+      opacity:0;
+      pointer-events: none;
+    }
+  }
 
 
 
