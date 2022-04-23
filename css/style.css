@@ -79,7 +79,7 @@ https://templatemo.com/tm-516-known
   }
 
   a:hover, a:active, a:focus {
-    color: #9fca29;
+    color: #0047cc;
     outline: none;
   }
 
@@ -266,11 +266,11 @@ https://templatemo.com/tm-516-known
       MENU              
   -----------------------------------------*/
   
-  .text-primary { color: #9fca29; }
+  .text-primary { color: #0047cc; }
 
   .custom-navbar {
     background: #ffffff;
-    border-top: 5px solid #9fca29;
+    border-top: 5px solid #0047cc;
     border-bottom: 0;
     -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
@@ -297,7 +297,7 @@ https://templatemo.com/tm-516-known
   }
 
   .custom-navbar .navbar-nav.navbar-right li a .fa {
-    background: #9fca29;
+    background: #0047cc;
     border-radius: 100%;
     color: #ffffff;
     width: 30px;
@@ -321,12 +321,12 @@ https://templatemo.com/tm-516-known
   }
 
   .custom-navbar .nav li a:hover {
-    background-color: #9fca29;
+    background-color: #0047cc;
     color: #ffffff;
   }
 
   .custom-navbar .nav li.active > a {
-    background-color: #9fca29;
+    background-color: #0047cc;
     color: #ffffff;
   }
 
@@ -448,7 +448,7 @@ https://templatemo.com/tm-516-known
   }
 
   #about figure span i {
-    background: #9fca29;
+    background: #0047cc;
     border-radius: 50px;
     color: #ffffff;
     font-size: 25px;
@@ -757,7 +757,7 @@ https://templatemo.com/tm-516-known
     font-size:24px;
     border-radius: 8px;
     font-family: 'montserrat';
-    color: #9fca29;
+    color: #0047cc;
     text-align:center;
     cursor: pointer;
     margin-top: 10px;
@@ -812,7 +812,7 @@ https://templatemo.com/tm-516-known
   -----------------------------------------*/
 
   footer {
-    background: #252020;
+    background: #0047cc;
     padding: 120px 0;
   }
 
@@ -826,7 +826,7 @@ https://templatemo.com/tm-516-known
 
   footer a,
   footer p {
-    color: #909090;
+    color: #fffdfd;
   }
 
   footer strong {
