@@ -99,15 +99,14 @@ window.addEventListener("DOMContentLoaded", function () {
   function success() {
     form.reset();
     status.classList.add("success");
-    status.innerHTML = "Thanks, we will get back to you soon";
+    status.innerHTML = "Thanks!";
   }
 
   function error() {
     status.classList.add("error");
     status.innerHTML = "Oops! There was a problem.";
   }
-
-  // handle the form submission event
+// handle the form submission event
 
   form.addEventListener("submit", function (ev) {
     ev.preventDefault();
@@ -132,4 +131,3 @@ function ajax(method, url, data, success, error) {
   };
   xhr.send(data);
 }
-
